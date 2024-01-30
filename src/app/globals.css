@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  font-size: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    font-size: 8.9px;
+  }
+}
+
+body {
+  color: black;
+  background: white;
+  font-family: monospace, sans-serif !important;
+}
+
+.clip-hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.drop-shadow-on-hover:hover {
+  transition: all 250ms ease-in-out;
+  filter: drop-shadow(2px 2px 2px #48558a);
+}
+
+/* animations */
+@keyframes slide {
+  0%,
+  100% {
+    transform: translateZ(0);
+  }
+  100% {
+    transform: translate3d(-55%, 0, 0);
+  }
+}
+
+.animation-slider {
+  display: flex;
+  width: 200%;
+  animation: slide 15s linear infinite;
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.animate-scale {
+  animation: scale 2s infinite;
+}
+
+.pause-animation-on-hover:hover {
+  animation-play-state: paused;
+}

@@ -1,0 +1,15 @@
+@keyframes animate-home-background {
+  from {
+    top: 2rem;
+  }
+  100% {
+    top: -3rem;
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .animate-home-background {
+    animation: animate-home-background 3s alternate-reverse infinite;
+  }
+}
