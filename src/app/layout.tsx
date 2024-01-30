@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Header } from "./components/Header/Header";
@@ -13,10 +12,11 @@ export const metadata: Metadata = {
   description:
     "I'm a Fullstack Software Engineer crafting end-to-end solutions with expertise in backend, frontend, and automations.",
   keywords:
-    "fullstack developer, web developer, Joao Godinho, godinhojoao, developer portfolio, nodejs developer, desenvolvedor, desenvolvedor bagé",
+    "fullstack developer, web developer, Joao Godinho, godinhojoao, developer portfolio, nodejs developer, desenvolvedor, desenvolvedor web, desenvolvedor fullstack, desenvolvedor bagé, joao godinho bage",
   creator: "Joao Godinho",
   publisher: "Joao Godinho",
   metadataBase: new URL("https://godinhojoao.com/"),
+  icons: ["/favicon.ico"],
 };
 
 export default function RootLayout({
@@ -26,8 +26,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="scroll-smooth scroll-auto h-full">
-      <SpeedInsights />
-
       <body className={`${inter.className} scroll-smooth h-full`}>
         <Header />
         <main style={{ overflowX: "hidden" }}>{children}</main>
