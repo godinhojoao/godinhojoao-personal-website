@@ -8,7 +8,17 @@ const timelineData = [
     title: "Full Stack Engineer",
     companyName: "PMC Group One",
     titleHref: "https://www.pmcgroupone.com/",
-    paragraphs: [],
+    paragraphs: [
+      "- Decisões de design system e infraestrutura, visando a otimização de custos e performance das aplicações, incluindo a avaliação e seleção de bibliotecas e frameworks apropriados.",
+      "- Obtive uma notável diminuição de custos na infraestrutura em nuvem, especialmente ao otimizar o uso de serviços e APIs de terceiros. Uma refatoração específica resultou em uma economia anual de mais de 99% nos custos desse serviço.",
+      "- Migração bem-sucedida do banco de dados de uma VM para um serviço especializado, visando resiliência e confiabilidade, aproveitando recursos como backups automáticos e alta disponibilidade.",
+      "- Otimização de APIs existentes por meio de estratégias de cache, aprimoramento de buscas no banco de dados e refatoração de código legado para facilitar a manutenção.",
+      "- Implementação de pipelines CI/CD, build e release na Azure DevOps para deploys automatizados, garantindo maior segurança e a capacidade de realizar rollbacks eficientes em caso de incidentes.",
+      "- Desenvolvimento de testes automatizados para garantir a qualidade do código.",
+      "- Geração de relatórios detalhados para o gerenciamento de ações de risco, utilizando Node.js e Cronjobs.",
+      "- Desenvolvimento de scripts para automação em ambientes Linux.",
+      "- Contribuição em projetos, desde o backend até o frontend, incluindo infraestrutura na Azure, MySQL, MongoDB, Node.js e Redis",
+    ],
     order: "left-timeline",
   },
   {
