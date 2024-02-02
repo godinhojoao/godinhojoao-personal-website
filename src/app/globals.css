@@ -19,13 +19,7 @@
 
 @media (max-width: 640px) {
   :root {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 360px) {
-  :root {
-    font-size: 8.9px;
+    font-size: 12px;
   }
 }
 

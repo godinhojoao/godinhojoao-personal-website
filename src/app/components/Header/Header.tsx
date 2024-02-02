@@ -43,13 +43,13 @@ export const Header = () => {
           width: "max-content",
         }}
       >
-        <ul className="flex items-center space-x-4 justify-evenly w-full">
+        <ul className="flex items-center space-x-1 sm:space-x-4 justify-evenly w-full">
           {navLinks.map((link) => {
             return (
               <li key={link.path}>
                 <Link
                   href={`/#${link.path}`}
-                  className={`hover:text-white py-2 px-4 rounded-full transition-all duration-500 ${
+                  className={`hover:text-white py-2 px-2 sm:px-4 rounded-full transition-all duration-500 ${
                     activeLink === `/${link.path}`
                       ? "text-white bg-[#1244b1]"
                       : "text-[#a9c2f7]"
