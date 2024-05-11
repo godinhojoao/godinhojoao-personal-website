@@ -1,0 +1,140 @@
+{
+  "Metadata": {
+    "title": "Joao Godinho - Developer",
+    "description": "I'm a Fullstack Software Engineer crafting end-to-end solutions with expertise in backend, frontend, and automations."
+  },
+  "Header": {
+    "home": "Home",
+    "about": "About",
+    "experiences": "Experiences",
+    "contacts": "Contacts",
+    "blog": "Blog"
+  },
+  "Footer": {
+    "allRightsReserved": "All rights reserved",
+    "developedBy": "Developed by "
+  },
+  "Main": {
+    "Home": {
+      "hello": "Hello! I'm ",
+      "softwareDeveloper": "Software Developer",
+      "yearsDeveloping": "Web Developer passionate about code for over {YEARS_DEVELOPING} years, {YEARS_DEVELOPING_PROFESSIONALLY} of which have been professional. I work across the spectrum of development, from frontend to backend, as well as automating reports and repetitive tasks with scripts. My mission is to solve problems through software.",
+      "flagImageAltText": "Flag of the United States"
+    },
+    "About": {
+      "welcome": "Hello! Welcome to my website.",
+      "aboutMe": "I'm a Brazilian software developer, passionate about code since the age of 16, born in 2003. As a good developer, I love challenges and am always seeking new knowledge, constantly learning something new and applying it to real projects. My main goal as a developer is to generate value for people, whether by cutting costs through automating repetitive tasks or creating new business opportunities by developing a complete application, from frontend to backend. In my leisure time, I enjoy exercising and discovering new music and restaurants.",
+      "mySkills": "My skills"
+    },
+    "Experiences": {
+      "title": "Experiences",
+      "timelineData": [
+        {
+          "id": "pmc-experience",
+          "date": "Jul 2023 - Present",
+          "locationAndJobType": "Houston, Texas, United States · Remote",
+          "title": "Full Stack Engineer",
+          "companyName": "PMC Group One",
+          "titleHref": "https://www.pmcgroupone.com/",
+          "paragraphs": [
+            "- Design system and infrastructure decisions, aiming at optimizing costs and performance of applications, including the evaluation and selection of appropriate libraries and frameworks.",
+            "- Achieved significant cost reduction in cloud infrastructure, especially by optimizing the use of third-party services and APIs. A specific refactoring resulted in an annual cost savings of over 99% for that service.",
+            "- Successfully migrated the database from a VM to a specialized service, aiming for resilience and reliability, leveraging resources such as automatic backups and high availability.",
+            "- Optimization of existing APIs through cache strategies, database search enhancement, and refactoring of legacy code to facilitate maintenance.",
+            "- Implementation of CI/CD pipelines, build, and release in Azure DevOps for automated deployments, ensuring greater security and the ability to perform efficient rollbacks in case of incidents.",
+            "- Development of automated tests to ensure code quality.",
+            "- Generation of detailed reports for risk action management, using Node.js and Cronjobs.",
+            "- Development of scripts for automation in Linux environments.",
+            "- Contribution to projects, from backend to frontend, including infrastructure on Azure, MySQL, MongoDB, Node.js, and Redis."
+          ],
+          "order": "left-timeline"
+        },
+        {
+          "id": "paipe-experience",
+          "date": "Apr 2023 - Jul 2023",
+          "locationAndJobType": "Campo Bom, Rio Grande do Sul, Brazil · Remote",
+          "title": "Back End Developer",
+          "companyName": "Paipe.co",
+          "titleHref": "https://paipe.co/",
+          "paragraphs": [
+            "Back End Developer in the front known as \"operation\" or \"software factory\", responsible for on-demand software development for third parties, including applications for financial control used by partner company Calçados Beira Rio, a global company with over 40 years of presence, serving an extensive customer base.",
+            "- Working on the development of financial control applications used by partner company Calçados Beira Rio, a company with global presence, serving an extensive customer base and in operation for over 40 years.",
+            "- Contributing to the team by regularly performing pair programming and code reviews.",
+            "- Testing applications developed in a unitary, integrated, and end-to-end manner.",
+            "- Refactoring legacy code from other internal company applications, with the aim of improving quality and making code maintenance more agile and easy. In addition, before refactoring, adding automated tests to the application to ensure that behavior remains appropriate."
+          ],
+          "order": "right-timeline"
+        },
+        {
+          "id": "field-control-tech-lead-experience",
+          "date": "Jul 2022 - Mar 2023",
+          "locationAndJobType": "São José do Rio Preto, São Paulo, Brazil · Remote",
+          "title": "Tech Lead",
+          "companyName": "Field Control",
+          "titleHref": "https://fieldcontrol.com.br/",
+          "paragraphs": [
+            "Technical leader in charge of developing new features for the company's main products and also making technical improvements such as performance and code quality.",
+            "- Ensuring predictability of deadlines, quality in deliveries, and following market best practices regarding software. Applying to projects: Design Patterns, SOLID Principles, and improvements in software architecture.",
+            "- Contributing to the evolution of team colleagues by frequently performing pair programming.",
+            "- Developing new features that include backend, frontend, and even mobile applications.",
+            "- Developing features for data exportation in Excel and PDF running on AWS Lambda, with Amazon SQS queues, ensuring performance, availability, and coverage of unit and integrated tests. Used by clients like Europ Assistance Brazil."
+          ],
+          "order": "left-timeline"
+        },
+        {
+          "id": "field-control-fullstack-experience",
+          "date": "Sep 2021 - Jul 2022",
+          "locationAndJobType": "São José do Rio Preto, São Paulo, Brazil · Remote",
+          "title": "Fullstack Developer",
+          "titleHref": "https://fieldcontrol.com.br/",
+          "companyName": "Field Control",
+          "paragraphs": [
+            "- Receiving backlog items related to new features, understanding how to solve the problem and implementing from the API that will be consumed (server) to the interface (frontend).",
+            "- Developing reports so that managers can analyze their company's data regarding generated budgets and also the vehicles used in the company. From SQL searches to displaying graphs with filters in Angular.",
+            "- Performing thorough reviews to ensure the expected quality in each delivery and then deploying the changes made to thousands of customers in the main software.",
+            "- Developing functionalities in the manager's application, a mobile application where users can manage their external teams and create service orders.",
+            "- Testing each software change in a unitary and integrated way using Jest, as well as testing interfaces in an end-to-end manner using Cypress."
+          ],
+          "order": "left-timeline"
+        },
+        {
+          "id": "field-control-internship-experience",
+          "date": "Jun 2021 - Sep 2021",
+          "locationAndJobType": "São José do Rio Preto, São Paulo, Brazil · Remote",
+          "title": "Web developer · Internship",
+          "companyName": "Field Control",
+          "titleHref": "https://fieldcontrol.com.br/",
+          "paragraphs": [
+            "- Developing the frontend of a responsive reports page for thousands of customers used to view information on services previously performed by companies, as well as creating appropriate styles for printing the page.",
+            "- Maintenance of features in the company's main application, a mobile application for managing external teams that perform service orders.",
+            "- Corporate web platform for thousands of users, with users being company managers.",
+            "- Restful APIs, both internal to meet the previous demands, and external for client integration like Postos Ipiranga."
+          ],
+          "order": "left-timeline"
+        },
+        {
+          "id": "ifsul-experience",
+          "date": "Jul 2021 - Dec 2022",
+          "locationAndJobType": "Bagé, Rio Grande do Sul, Brazil · Hybrid",
+          "title": "Technological Initiation Scholar",
+          "companyName": "IFSUL - Federal Institute of Southern Rio Grande do Sul",
+          "titleHref": "https://www.ifsul.edu.br/",
+          "paragraphs": [
+            "- Identifying possible improvements in the educational process of the campus and region, proposing solutions and developing them with quality and agility in delivery.",
+            "- Developing educational material about html, css, and web fundamentals. Content used in classes for groups ranging from the 7th grade of elementary school to the 2nd year of high school.",
+            "- Developing an application about the animals of the Southern Region of Brazil. With the aim of facilitating classes on the topic and making the content more relevant."
+          ],
+          "order": "right-timeline"
+        }
+      ]
+    },
+    "Contacts": {
+      "infos": "Contact Information",
+      "contactMe": "Feel free to get in touch with me via email or through my social networks. I'm always open to meaningful connections and collaborations."
+    },
+    "Blog": {
+      "seeMore": "See more",
+      "readMore": "Read more"
+    }
+  }
+}
