@@ -1,11 +1,15 @@
 import Image from "next/image";
 import { Slider } from "../../Slider/Slider";
+import Link from "next/link";
 
 type AboutSectionProps = {
   translations: {
     welcome: string;
     aboutMe: string;
     mySkills: string;
+    education: string;
+    computerScience: string;
+    informaticsTechnician: string;
   };
 };
 
@@ -90,6 +94,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             src="/images/myself.jpeg"
             height={80}
             width={80}
+            layout="responsive"
             className="w-full h-full clip-hexagon"
             alt="Joao Godinho"
             loading="lazy"
@@ -105,6 +110,42 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
           </p>
         </div>
       </div>
+
+      <h3 className="mt-6 mb-2 text-[#004fff] font-extrabold">
+        {translations.education}
+      </h3>
+      <ul className="ml-6 mt-2 list-disc font-normal text-md text-justify leading-6 text-gray-600">
+        <li>
+          {translations.computerScience}.{" "}
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://portal.ufpel.edu.br/"
+            className="
+        mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
+        cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+      "
+            style={{ width: "fit-content" }}
+          >
+            UFPel - Universidade Federal de Pelotas
+          </Link>
+        </li>
+        <li className="mb-2">
+          {translations.informaticsTechnician}.{" "}
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://www.bage.ifsul.edu.br/"
+            className="
+        mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
+        cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+      "
+            style={{ width: "fit-content" }}
+          >
+            IFSul - Instituto Federal Sul-rio-grandense Campus Bagé
+          </Link>
+        </li>
+      </ul>
 
       <h3 className="mt-6 text-[#004fff] font-extrabold">
         {translations.mySkills}

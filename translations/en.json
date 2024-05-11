@@ -19,13 +19,16 @@
     "Home": {
       "hello": "Hello! I'm ",
       "softwareDeveloper": "Software Developer",
-      "yearsDeveloping": "Web Developer passionate about code for over {YEARS_DEVELOPING} years, {YEARS_DEVELOPING_PROFESSIONALLY} of which have been professional. I work across the spectrum of development, from frontend to backend, as well as automating reports and repetitive tasks with scripts. My mission is to solve problems through software.",
+      "yearsDeveloping": "Web Developer passionate about solving problems with code for over {YEARS_DEVELOPING} years, {YEARS_DEVELOPING_PROFESSIONALLY} of which have been professional. I work across the spectrum of development, from frontend to backend, as well as automating reports and repetitive tasks with scripts. My mission is to solve problems through software.",
       "flagImageAltText": "Flag of the United States"
     },
     "About": {
       "welcome": "Hello! Welcome to my website.",
-      "aboutMe": "I'm a Brazilian software developer, passionate about code since the age of 16, born in 2003. As a good developer, I love challenges and am always seeking new knowledge, constantly learning something new and applying it to real projects. My main goal as a developer is to generate value for people, whether by cutting costs through automating repetitive tasks or creating new business opportunities by developing a complete application, from frontend to backend. In my leisure time, I enjoy exercising and discovering new music and restaurants.",
-      "mySkills": "My skills"
+      "aboutMe": "I'm a Brazilian software developer, passionate about solving problems with code since the age of 16, born in 2003. As a good developer, I love challenges and am always seeking new knowledge, constantly learning something new and applying it to real projects. My main goal as a developer is to generate value for people, whether by cutting costs through automating repetitive tasks or creating new business opportunities by developing a complete application, from frontend to backend. In my leisure time, I enjoy exercising and discovering new music and restaurants.",
+      "mySkills": "My skills",
+      "education": "Education",
+      "computerScience": "Bachelor's degree, Computer Science",
+      "informaticsTechnician": "Informatics Technician Integrated with High School"
     },
     "Experiences": {
       "title": "Experiences",

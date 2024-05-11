@@ -19,13 +19,16 @@
     "Home": {
       "hello": "Olá! Eu sou o ",
       "softwareDeveloper": "Desenvolvedor de Software",
-      "yearsDeveloping": "Desenvolvedor Web apaixonado por código há mais de {YEARS_DEVELOPING} anos, sendo {YEARS_DEVELOPING_PROFESSIONALLY} deles profissionalmente. Atuo em todo o espectro do desenvolvimento, do frontend ao backend, além de automatizar relatórios e tarefas repetitivas com scripts. Minha missão é solucionar problemas por meio do software.",
+      "yearsDeveloping": "Desenvolvedor Web apaixonado por resolver problemas com código há mais de {YEARS_DEVELOPING} anos, sendo {YEARS_DEVELOPING_PROFESSIONALLY} deles profissionalmente. Atuo em todo o espectro do desenvolvimento, do frontend ao backend, além de automatizar relatórios e tarefas repetitivas com scripts. Minha missão é solucionar problemas por meio do software.",
       "flagImageAltText": "Bandeira do Brasil"
     },
     "About": {
       "welcome": "Olá! Bem vindo ao meu site.",
-      "aboutMe": "Sou um desenvolvedor de software brasileiro, apaixonado por código desde os 16 anos e nascido em 2003. Como bom desenvolvedor, adoro desafios e estou sempre em busca de novos conhecimentos, aprendendo algo novo constantemente e aplicando em projetos reais. Meu principal objetivo como desenvolvedor é gerar valor para as pessoas, seja cortando custos ao automatizar tarefas repetitivas ou criando novas oportunidades de negócio ao desenvolver uma aplicação completa, desde o frontend até o backend. Nos momentos de lazer, gosto de praticar exercícios físicos e de conhecer novas músicas e restaurantes.",
-      "mySkills": "Minhas habilidades"
+      "aboutMe": "Sou um desenvolvedor de software brasileiro, apaixonado por resolver problemas com código desde os 16 anos e nascido em 2003. Como bom desenvolvedor, adoro desafios e estou sempre em busca de novos conhecimentos, aprendendo algo novo constantemente e aplicando em projetos reais. Meu principal objetivo como desenvolvedor é gerar valor para as pessoas, seja cortando custos ao automatizar tarefas repetitivas ou criando novas oportunidades de negócio ao desenvolver uma aplicação completa, desde o frontend até o backend. Nos momentos de lazer, gosto de praticar exercícios físicos e de conhecer novas músicas e restaurantes.",
+      "mySkills": "Minhas habilidades",
+      "education": "Formação Acadêmica",
+      "computerScience": "Bacharelado, Ciência da Computação",
+      "informaticsTechnician": "Técnico em Informática Integrado ao Ensino Médio"
     },
     "Experiences": {
       "title": "Experiências",
