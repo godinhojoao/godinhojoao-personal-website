@@ -1,7 +1,8 @@
 {
   "Metadata": {
     "title": "Joao Godinho - Desenvolvedor",
-    "description": "Sou um Engenheiro de Software Fullstack criando soluções de ponta a ponta com experiência em backend, frontend e automações."
+    "description": "Sou um Engenheiro de Software Fullstack criando soluções de ponta a ponta com experiência em backend, frontend e automações.",
+    "metadataBaseUrl": "https://godinhojoao.com/pt"
   },
   "Header": {
     "home": "Home",

@@ -19,7 +19,7 @@ export async function generateMetadata({ params: { locale } }: any) {
       "fullstack developer, web developer, Joao Godinho, godinhojoao, developer portfolio, nodejs developer, desenvolvedor, desenvolvedor web, desenvolvedor fullstack, desenvolvedor bagé, joao godinho bage",
     creator: "Joao Godinho",
     publisher: "Joao Godinho",
-    metadataBase: new URL("https://godinhojoao.com/"),
+    metadataBase: new URL(t("metadataBaseUrl")),
     icons: ["/favicon.ico"],
   };
 }

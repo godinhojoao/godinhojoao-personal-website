@@ -1,7 +1,8 @@
 {
   "Metadata": {
     "title": "Joao Godinho - Developer",
-    "description": "I'm a Fullstack Software Engineer crafting end-to-end solutions with expertise in backend, frontend, and automations."
+    "description": "I'm a Fullstack Software Engineer crafting end-to-end solutions with expertise in backend, frontend, and automations.",
+    "metadataBaseUrl": "https://godinhojoao.com/en"
   },
   "Header": {
     "home": "Home",
