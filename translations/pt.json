@@ -24,11 +24,13 @@
     },
     "About": {
       "welcome": "Olá! Bem vindo ao meu site.",
-      "aboutMe": "Sou um desenvolvedor de software brasileiro, apaixonado por resolver problemas com código desde os 16 anos e nascido em 2003. Como bom desenvolvedor, adoro desafios e estou sempre em busca de novos conhecimentos, aprendendo algo novo constantemente e aplicando em projetos reais. Meu principal objetivo como desenvolvedor é gerar valor para as pessoas, seja cortando custos ao automatizar tarefas repetitivas ou criando novas oportunidades de negócio ao desenvolver uma aplicação completa, desde o frontend até o backend. Nos momentos de lazer, gosto de praticar exercícios físicos e de conhecer novas músicas e restaurantes.",
+      "aboutMe": "Sou um desenvolvedor de software brasileiro, apaixonado por resolver problemas com código desde os 16 anos e nascido em 2003. Como bom desenvolvedor, adoro desafios e estou sempre em busca de novos conhecimentos, aprendendo algo novo constantemente e aplicando em projetos reais. Meu principal objetivo como desenvolvedor é gerar valor para as pessoas, seja cortando custos ao automatizar tarefas repetitivas ou criando novas oportunidades de negócio ao desenvolver uma aplicação completa, desde o frontend até o backend. Nos momentos de lazer, gosto de praticar esportes e de conhecer novas músicas e restaurantes.",
       "mySkills": "Minhas habilidades",
       "education": "Formação Acadêmica",
       "computerScience": "Bacharelado, Ciência da Computação",
-      "informaticsTechnician": "Técnico em Informática Integrado ao Ensino Médio"
+      "informaticsTechnician": "Técnico em Informática Integrado ao Ensino Médio",
+      "inProgress": "Em andamento",
+      "completed": "Concluído"
     },
     "Experiences": {
       "title": "Experiências",
@@ -46,7 +48,7 @@
             "- Migração bem-sucedida do banco de dados de uma VM para um serviço especializado, visando resiliência e confiabilidade, aproveitando recursos como backups automáticos e alta disponibilidade.",
             "- Otimização de APIs existentes por meio de estratégias de cache, aprimoramento de buscas no banco de dados e refatoração de código legado para facilitar a manutenção.",
             "- Implementação de pipelines CI/CD, build e release na Azure DevOps para deploys automatizados, garantindo maior segurança e a capacidade de realizar rollbacks eficientes em caso de incidentes.",
-            "- Desenvolvimento de testes automatizados para garantir a qualidade do código.",
+            "- Desenvolvimento de testes automatizados com Jest para garantir a qualidade do código.",
             "- Geração de relatórios detalhados para o gerenciamento de ações de risco, utilizando Node.js e Cronjobs.",
             "- Desenvolvimento de scripts para automação em ambientes Linux.",
             "- Contribuição em projetos, desde o backend até o frontend, incluindo infraestrutura na Azure, MySQL, MongoDB, Node.js e Redis"

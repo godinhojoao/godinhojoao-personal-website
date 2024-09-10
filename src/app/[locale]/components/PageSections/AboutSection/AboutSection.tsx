@@ -10,6 +10,8 @@ type AboutSectionProps = {
     education: string;
     computerScience: string;
     informaticsTechnician: string;
+    inProgress: string;
+    completed: string;
   };
 };
 
@@ -116,7 +118,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
       </h3>
       <ul className="ml-6 mt-2 list-disc font-normal text-md text-justify leading-6 text-gray-600">
         <li>
-          {translations.computerScience}.{" "}
+          {translations.computerScience}. ({translations.inProgress})
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -131,7 +133,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
           </Link>
         </li>
         <li className="mb-2">
-          {translations.informaticsTechnician}.{" "}
+          {translations.informaticsTechnician}. ({translations.completed})
           <Link
             target="_blank"
             rel="noopener noreferrer"

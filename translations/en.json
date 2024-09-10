@@ -28,7 +28,9 @@
       "mySkills": "My skills",
       "education": "Education",
       "computerScience": "Bachelor's degree, Computer Science",
-      "informaticsTechnician": "Informatics Technician Integrated with High School"
+      "informaticsTechnician": "Informatics Technician Integrated with High School",
+      "inProgress": "In progress",
+      "completed": "Completed"
     },
     "Experiences": {
       "title": "Experiences",
@@ -46,7 +48,7 @@
             "- Successfully migrated the database from a VM to a specialized service, aiming for resilience and reliability, leveraging resources such as automatic backups and high availability.",
             "- Optimization of existing APIs through cache strategies, database search enhancement, and refactoring of legacy code to facilitate maintenance.",
             "- Implementation of CI/CD pipelines, build, and release in Azure DevOps for automated deployments, ensuring greater security and the ability to perform efficient rollbacks in case of incidents.",
-            "- Development of automated tests to ensure code quality.",
+            "- Development of automated tests with Jest to ensure code quality.",
             "- Generation of detailed reports for risk action management, using Node.js and Cronjobs.",
             "- Development of scripts for automation in Linux environments.",
             "- Contribution to projects, from backend to frontend, including infrastructure on Azure, MySQL, MongoDB, Node.js, and Redis."
