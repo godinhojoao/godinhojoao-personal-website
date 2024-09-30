@@ -147,6 +147,21 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             IFSul - Instituto Federal Sul-rio-grandense Campus Bagé
           </Link>
         </li>
+        <li className="mb-2">
+          AWS Certified Cloud Practitioner
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.credly.com/badges/b6b00431-de89-4002-8f95-3931e7aa35af/public_url"
+            className="
+      mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
+      cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+    "
+            style={{ width: "fit-content" }}
+          >
+            View Certification
+          </Link>
+        </li>
       </ul>
 
       <h3 className="mt-6 text-[#004fff] font-extrabold">
