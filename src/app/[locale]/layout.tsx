@@ -21,6 +21,19 @@ export async function generateMetadata({ params: { locale } }: any) {
     publisher: "Joao Godinho",
     metadataBase: new URL(t("metadataBaseUrl")),
     icons: ["/favicon.ico"],
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      // images: [
+      //   {
+      //     url: 'https://godinhojoao.com/path/to/your/image.jpg',
+      //     width: 800,
+      //     height: 600,
+      //     alt: 'Joao Godinho - Fullstack Developer',
+      //   },
+      // ],
+      siteName: "Joao Godinho",
+    },
   };
 }
 
