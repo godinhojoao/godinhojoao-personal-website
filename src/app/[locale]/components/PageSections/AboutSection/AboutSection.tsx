@@ -154,9 +154,24 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             rel="noopener noreferrer"
             href="https://www.credly.com/badges/b6b00431-de89-4002-8f95-3931e7aa35af/public_url"
             className="
-      mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
-      cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
-    "
+              mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
+              cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+            "
+            style={{ width: "fit-content" }}
+          >
+            View Certification
+          </Link>
+        </li>
+        <li className="mb-2">
+          JSNAD: OpenJS Node.js Application Developer
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.credly.com/badges/6be9cd6f-30c3-424c-812a-bf95defcc630/public_url"
+            className="
+          mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
+          cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+        "
             style={{ width: "fit-content" }}
           >
             View Certification
