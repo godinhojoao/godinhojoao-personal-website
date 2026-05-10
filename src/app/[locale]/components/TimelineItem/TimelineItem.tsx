@@ -63,7 +63,7 @@ export const TimelineItem = ({
                 href={titleHref}
                 className="
                   mb-3 text-[#004fff] text-lg md:text-2xl h-full flex items-center underline pr-1
-                  cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+                  cursor-pointer hover:text-[#6691ff] transition-all
                 "
                 style={{ width: "fit-content" }}
               >

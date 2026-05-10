@@ -97,7 +97,6 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             src="/images/myself.jpeg"
             height={80}
             width={80}
-            layout="responsive"
             className="w-full h-full clip-hexagon"
             alt="Joao Godinho"
             loading="lazy"
@@ -126,7 +125,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             href="https://portal.ufpel.edu.br/"
             className="
         mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
-        cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+        cursor-pointer hover:text-[#0030cc] transition-all
       "
             style={{ width: "fit-content" }}
           >
@@ -141,7 +140,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             href="http://www.bage.ifsul.edu.br/"
             className="
         mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
-        cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+        cursor-pointer hover:text-[#0030cc] transition-all
       "
             style={{ width: "fit-content" }}
           >
@@ -149,14 +148,14 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
           </Link>
         </li>
         <li className="mb-2">
-          {translations.xiiAcademicJourney}. ({translations.completed})
+          {translations.xiiAcademicJourney}.
           <Link
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.even3.com.br/documentos/imprimir?i=28971505.08978340.8607986.8.81456363814870389341898&cc=CC48F013-0789-4171-B501-8044D1E95B46"
             className="
         mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
-        cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+        cursor-pointer hover:text-[#0030cc] transition-all
       "
             style={{ width: "fit-content" }}
           >
@@ -171,7 +170,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             href="https://www.credly.com/badges/b6b00431-de89-4002-8f95-3931e7aa35af/public_url"
             className="
               mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
-              cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+              cursor-pointer hover:text-[#0030cc] transition-all
             "
             style={{ width: "fit-content" }}
           >
@@ -186,7 +185,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             href="https://www.credly.com/badges/6be9cd6f-30c3-424c-812a-bf95defcc630/public_url"
             className="
           mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
-          cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+          cursor-pointer hover:text-[#0030cc] transition-all
         "
             style={{ width: "fit-content" }}
           >
