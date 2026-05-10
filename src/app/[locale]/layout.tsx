@@ -10,7 +10,8 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export async function generateMetadata({ params: { locale } }: any) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
   return {
     title: t("title"),
@@ -39,11 +40,12 @@ export async function generateMetadata({ params: { locale } }: any) {
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   const locales = ["en", "pt"];
   if (!locales.includes(locale)) return redirect("/en");
   const htmlLang = locale === "en" ? "en-US" : "pt-BR";

@@ -10,6 +10,7 @@ type AboutSectionProps = {
     education: string;
     computerScience: string;
     informaticsTechnician: string;
+    xiiAcademicJourney: string;
     inProgress: string;
     completed: string;
   };
@@ -148,6 +149,21 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
           </Link>
         </li>
         <li className="mb-2">
+          {translations.xiiAcademicJourney}. ({translations.completed})
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.even3.com.br/documentos/imprimir?i=28971505.08978340.8607986.8.81456363814870389341898&cc=CC48F013-0789-4171-B501-8044D1E95B46"
+            className="
+        mb-3 text-[#004fff] text-base md:text-lg h-full flex items-center underline pr-1
+        cursor-pointer hover:text-[#004fff] hover:bg-[#2b6dff] hover:bg-opacity-20 transition-all
+      "
+            style={{ width: "fit-content" }}
+          >
+            View Certificate
+          </Link>
+        </li>
+        <li className="mb-2">
           AWS Certified Cloud Practitioner
           <Link
             target="_blank"
@@ -159,7 +175,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
             "
             style={{ width: "fit-content" }}
           >
-            View Certification
+            View Certificate
           </Link>
         </li>
         <li className="mb-2">
@@ -174,7 +190,7 @@ export const AboutSection = ({ translations }: AboutSectionProps) => {
         "
             style={{ width: "fit-content" }}
           >
-            View Certification
+            View Certificate
           </Link>
         </li>
       </ul>

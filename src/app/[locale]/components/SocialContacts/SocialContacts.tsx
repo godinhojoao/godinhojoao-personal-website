@@ -38,7 +38,7 @@ export function SocialContacts({ useDarkIcons }: SocialContactsProps) {
   ];
 
   return (
-    <ul className="mt-10 bg-[] py-1 px-2 border rounded-full flex justify-around items-center mx-auto w-80 shadow-md group">
+    <ul className="mt-10 bg-[] py-1 px-2 border border-white rounded-full flex justify-around items-center mx-auto w-80 shadow-md group">
       {socialMediaLinks.map((link, index) => (
         <li key={index} className="animate-scale drop-shadow-on-hover">
           <Link href={link.url} target="_blank">
