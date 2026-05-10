@@ -41,7 +41,7 @@ const BlogSection = ({ blogPosts, translations }: BlogSectionProps) => {
         {postsToShow < blogPosts.length && (
           <div className="flex justify-center mt-6">
             <button
-              className="px-3.5 py-2.5 text-white text-sm font-semibold bg-[#004fff] hover:bg-[#033091] hover:shadow-cla-blue hover:scale-105 transition-all duration-300 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
+              className="cursor-pointer px-3.5 py-2.5 text-white text-sm font-semibold bg-[#004fff] hover:bg-[#033091] hover:shadow-cla-blue hover:scale-105 transition-all duration-300 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
               onClick={handleSeeMoreClick}
             >
               {translations.seeMore}
