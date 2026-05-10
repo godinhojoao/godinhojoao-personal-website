@@ -5,7 +5,7 @@
 
 ## How to run locally
 
-- `nvm i 20.11.0`
+- `nvm i 22.14.0`
 - `nvm use`
 - `npm i`
 - `npm run dev`
